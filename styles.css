@@ -1,0 +1,403 @@
+/* stylesheet */
+
+.body {
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10vh;
+    background-color: black;
+    padding: 0vw 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #8b8b8b;
+}
+
+.header p {
+    font-size: larger;
+    font-weight: bold;
+    color: #e2e2e2;
+}
+
+.tiles {
+    display: flex;
+}
+
+main {
+    padding-top: 12.5vh;
+}
+
+.contact {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: 5vw;
+}
+
+.contact div img {
+    height: 1.5vw;
+    width: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+.title {
+    font-size: 1.75vh;
+    color: #c4c4c4;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content {
+    font-size: 1.75vh;
+    color: #ccff00;
+}
+
+.intro {
+    display: flex;
+    height: 35vh;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.profile {
+    margin-right: 6.5vw;
+    height: 28.5vh;
+    width: 28.5vh;
+    background-color: #ccff00;
+    border-radius: 100%;
+}
+
+.detail {
+    margin-left: 6.5vw;
+}
+
+.name {
+    font-size: 8.5vh;
+    font-weight: bolder;
+    color: #e2e2e2;
+    letter-spacing: 1px;
+}
+
+.dscp {
+    font-size: 4vh;
+    font-weight: bolder;
+    color: #ccff00;
+    letter-spacing: 1px;
+}
+
+.divider0 {
+    display: flex;
+    height: 2px;
+    background-color: #8b8b8b;
+    margin-top: 12.5vh;
+    margin-left: 32.5vw;
+}
+
+.div1 {
+    height: 100%;
+    width: 11.5vw;
+    background-color: #ccff00;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.5vw;
+    padding-top: 7.5vh;
+}
+
+.label {
+    font-size: 4vh;
+    font-weight: bold;
+    color: #c4c4c4;
+    letter-spacing: 1px;
+}
+
+.about-me {
+    width: 60vw;
+    font-weight: 200;
+    font-size: 2vh;
+    line-height: 4vh;
+    margin-right: 6.5vw;
+    letter-spacing: 0.5px;
+    color: #e2e2e2;
+}
+
+.hglt {
+    font-size: 2vh;
+    color: #ccff00;
+    font-weight: 900;
+}
+
+.hglt1 {
+    font-size: 1.75vh;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.divider1 {
+    display: flex;
+    justify-content: space-between;
+    height: 2px;
+    background-color: #8b8b8b;
+    margin-top: 12.5vh;
+    margin-right: 32.5vw;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6.5vw;
+    padding-top: 7.5vh;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    height: 25vh;
+    margin-left: 6.5vw;
+}
+
+.skill-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+}
+
+.skill-icon {
+    height: 2vw;
+    width: 2vw;
+    margin-right: 1vw;
+}
+
+.skill-name {
+    font-size: 2vh;
+    color: #c4c4c4;
+    font-weight: 400;
+}
+
+.edu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.5vw;
+    padding-top: 7.5vh;
+}
+
+.my-edu {
+    display: flex;
+    width: 60vw;
+    margin-right: 6.5vw;
+    letter-spacing: 1px;
+}
+
+.my-edu1 {
+    display: flex;
+    letter-spacing: 1px;
+}
+
+.year {
+    padding-right: 5vw;
+    font-size: 2vh;
+    font-weight: 900;
+    color: #8b8b8b;
+}
+
+.year1 {
+    padding-right: 2.5vw;
+    font-size: 1.75vh;
+    font-weight: 900;
+    color: #8b8b8b;
+}
+
+.degree {
+    font-size: 2.25vh;
+    font-weight: 900;
+    color: #ccff00;
+}
+
+.degree1 {
+    font-size: 1.75vh;
+    font-weight: 900;
+    color: #ccff00;
+}
+
+.inst-name {
+    font-size: 1.75vh;
+    font-weight: 400;
+    color: #8b8b8b;
+}
+
+.inst-name1 {
+    font-size: 1.5vh;
+    font-weight: 400;
+    color: #e2e2e2;
+}
+
+.grade {
+    font-size: 1.75vh;
+    font-weight: 700;
+    color: #e2e2e2;
+    letter-spacing: 1px;
+}
+
+.achievements {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6.5vw;
+    padding-top: 7.5vh;
+}
+
+.achieved {
+    display: flex;
+}
+
+.ach-year {
+    padding-left: 6.5vw;
+    font-size: 2vh;
+    font-weight: 900;
+    color: #8b8b8b;
+}
+
+.achmt {
+    padding-left: 5vw;
+    word-spacing: 2px;
+    font-size: 1.75vh;
+    font-weight: 400;
+    color: #e2e2e2;
+}
+
+.certifications {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.5vw;
+    padding-top: 7.5vh;
+}
+
+.cert {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin-right: 6.5vw;
+}
+
+.interests {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6.5vw;
+    padding-top: 7.5vh;
+}
+
+.interest {
+    display: flex;
+    justify-content: space-between;
+    width: 40.5vw;
+    height: 15vh;
+    margin-left: 13vw;
+}
+
+.interest-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.interest-item {
+    display: flex;
+    align-items: center;
+}
+
+.interest-icon {
+    height: 2vw;
+    width: 2vw;
+    margin-right: 2vw;
+}
+
+.interest-name {
+    font-size: 2vh;
+    color: #c4c4c4;
+    font-weight: 400;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.5vw;
+    padding-top: 7.5vh;
+}
+
+.project {
+    display: flex;
+    width: 66.5vw;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+
+.year2 {
+    font-size: 1.95vh;
+    width: 17.5vw;
+    padding-right: 5vw;
+    font-weight: 900;
+    color: #8b8b8b;
+}
+
+.pro {
+    width: 100%;
+    margin-right: 6.5vw;
+}
+
+.inst-name2 {
+    font-size: 1.75vh;
+    font-weight: 400;
+    color: #c4c4c4;
+}
+
+.link1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.link1 img {
+    padding-left: 1vw;
+    height: 2.5vh;
+    width: 2.5vh;
+}
+
+.link2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.link2 img {
+    padding-left: 1vw;
+    height: 1.7vh;
+    width: 1.7vh;
+}
+
+/*  */
+
+.bottom-padding {
+    padding-top: 10vh;
+    padding-right: 2.5vw;
+    padding-bottom: 2.5vw;
+    text-align: end;
+    font-size: 2vh;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
